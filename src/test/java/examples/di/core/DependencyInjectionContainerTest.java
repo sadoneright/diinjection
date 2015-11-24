@@ -21,8 +21,7 @@ public class DependencyInjectionContainerTest {
 		this.view = view;
 	}
 
-	public static void main(String[] args) throws InstantiationException, IllegalAccessException, NoSuchMethodException,
-			SecurityException, IllegalArgumentException, InvocationTargetException {
+	public static void main(String[] args){
 		DependencyInjecter diContainer = new DependencyInjecter();
 		DependencyInjectionContainerTest test = new DependencyInjectionContainerTest();
 
